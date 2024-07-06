@@ -1,0 +1,12 @@
+version: "2.28.1"
+name: app-landing-page
+services:
+  host-services:
+    container_name: server-apache
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ./build:/usr/local/apache2/htdocs/

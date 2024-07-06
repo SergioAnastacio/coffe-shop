@@ -1,0 +1,43 @@
+{
+  "name": "coffe-shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP",
+    "JS",
+    "HTML5"
+  ],
+  "author": "sergio anastacio angulo rosales",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^7.0.3",
+    "glob": "^10.4.2",
+    "gulp": "^5.0.0",
+    "gulp-avif": "^1.1.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-webp": "^5.0.0",
+    "postcss": "^8.4.38",
+    "sass": "^1.77.6",
+    "sharp": "^0.33.4"
+  },
+  "browserslist": [
+    "last 1 version",
+    ">1%"
+  ],
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
