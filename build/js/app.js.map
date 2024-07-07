@@ -1,1 +1,1 @@
-{"version":3,"file":"app.js","names":[],"sources":[],"mappings":"","ignoreList":[]}
+{"version":3,"file":"app.js","names":["recargarPagina","location","reload","setInterval"],"sources":["app.js"],"mappings":"AAAA,SAASA,iBACPC,SAASC,QACX,CAEAC,YAAYH,eAAgB","ignoreList":[]}
