@@ -8,27 +8,63 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header header-inicio">
+    <header class="header header-contacto">
       <div class="contenido-header contenedor">
         <div class="barra">
           <div class="logo">
             <img src="./img/logo.svg" alt="" />
           </div>
           <nav class="nav-principal">
-            <a class="activo" href="index.html">Inicio</a>
+            <a href="index.html">Inicio</a>
             <a href="nosotros.html">Nosotros</a>
             <a href="menu.html">Menu</a>
             <a href="proceso.html">proceso</a>
             <a href="galeria.html">galeria</a>
-            <a href="contacto.html">contacto</a>
+            <a class="activo" href="contacto.html">contacto</a>
           </nav>
         </div>
         <div class="text-header">
-          <h1>Disfruta una deliciosa taza de cafe</h1>
+          <h1>Mejores granos, mejor cafe</h1>
         </div>
       </div>
     </header>
-    <main class="contenedor contenido-principal text-center"></main>
+    <main class="contenedor contenido-principal text-center">
+      <h2><span>Reserva tu</span>Mesa</h2>
+      <div class="contenido-contacto">
+        <form class="formulario-contacto">
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="" />
+          </div>
+          <div class="campo">
+            <label for="email">email</label>
+            <input type="email" name="nombre" id="" />
+          </div>
+          <div class="campo">
+            <label for="nombre">Numero de personas</label>
+            <select>
+              <option value="">Numero de personas</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">5</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="hora">hora</label>
+            <input type="time" name="nombre" id="" />
+          </div>
+          <div class="campo">
+            <label for="fecha">fecha</label>
+            <input type="date" name="nombre" id="" />
+          </div>
+          <div class="campo">
+            <input type="submit" value="Reservar" />
+          </div>
+        </form>
+      </div>
+    </main>
 
     <footer class="footer">
       <div class="contenedor contenido-footer bg-withe">

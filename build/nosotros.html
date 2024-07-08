@@ -8,27 +8,87 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header header-inicio">
+    <header class="header nosotros">
       <div class="contenido-header contenedor">
         <div class="barra">
           <div class="logo">
             <img src="./img/logo.svg" alt="" />
           </div>
           <nav class="nav-principal">
-            <a class="activo" href="#">Inicio</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Menu</a>
-            <a href="#">proceso</a>
-            <a href="#">galeria</a>
-            <a href="#">contacto</a>
+            <a href="index.html">Inicio</a>
+            <a class="activo" href="nosotros.html">Nosotros</a>
+            <a href="menu.html">Menu</a>
+            <a href="proceso.html">proceso</a>
+            <a href="galeria.html">galeria</a>
+            <a href="contacto.html">contacto</a>
           </nav>
         </div>
         <div class="text-header">
-          <h1>Disfruta una deliciosa taza de cafe</h1>
+          <h1>Una nueva experiencia cada dia</h1>
         </div>
       </div>
     </header>
-    <main class="contenedor contenido-principal text-center"></main>
+    <main class="contenedor contenido-principal text-center margin-negativo-10">
+      <h2><span>Conoce</span>sobre nosotros</h2>
+      <div class="contenido-nosotros contenedor">
+        <div class="imagen">
+          <figure>
+            <picture>
+              <source
+                sizes="1920w, 1280w, 720w"
+                srcset="
+                  ./img/nosotros_sidebar_1920.avif 1920w,
+                  ./img/nosotros_sidebar_1280.avif 1280w,
+                  ./img/nosotros_sidebar_720.avif   720w
+                "
+                type="image/avif"
+              />
+              <source
+                sizes="1920w, 1280w, 720w"
+                srcset="
+                  ./img/nosotros_sidebar_1920.webp 1920w,
+                  ./img/nosotros_sidebar_1280.webp 1280w,
+                  ./img/nosotros_sidebar_720.webp   720w
+                "
+                type="image/webp"
+              />
+              <source
+                sizes="1920w, 1280w, 720w"
+                srcset="
+                  ./img/nosotros_sidebar_1920.jpg 1920w,
+                  ./img/nosotros_sidebar_1280.jpg 1280w,
+                  ./img/nosotros_sidebar_720.jpg   720w
+                "
+                type="image/jpeg"
+              />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="./img/nosotros_sidebar.jpg"
+                lazyalt="imagen"
+                width="500"
+                height="300"
+              />
+            </picture>
+          </figure>
+        </div>
+        <div class="texto">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            repellat doloremque officiis? Repellendus neque illum quia ratione,
+            quaerat obcaecati fugiat odit, veniam exercitationem non veritatis
+            harum eaque dolore aperiam ea?
+          </p>
+          <blockquote>Exelente sabor</blockquote>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+            accusamus dolorem. Magnam sequi sunt praesentium debitis molestias
+            voluptatum assumenda ratione dolorum eum aperiam inventore eligendi
+            asperiores tenetur, dolore et illo!
+          </p>
+        </div>
+      </div>
+    </main>
 
     <footer class="footer">
       <div class="contenedor contenido-footer bg-withe">
@@ -57,6 +117,6 @@
 
     <script src="./js/app.js"></script>
     <script src="./js/modernizer.js"></script>
-    <script src="./js/reload.js"></script>
+    <script src="./js/reload..js"></script>
   </body>
 </html>
